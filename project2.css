@@ -1,0 +1,227 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-family: 'Raleway';
+    min-width: 320px;
+    background-color:  #a9d7d1;
+    margin:2px;
+    padding: 2px;
+}
+h1{
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+#container{
+    margin: 3% auto;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid white;
+    border-radius: 5px;
+    width:75%;
+    max-width: 900px;
+}
+#container p{
+    text-align: center;
+    padding-top: 2%;
+}
+label{
+   
+    margin: 2% 0; display: inline-block;
+    text-align: right;
+    width: 40%;
+    vertical-align: top;
+    padding: 10px;
+
+}
+input{
+    display: inline-block;
+    width: 35%;
+    text-align: left;
+    padding: 10px;
+    margin: 2% 0;
+    vertical-align: middle;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+.choices{
+    display: inline-block;
+    width: 25%;
+    text-align: left;
+    margin: 2% 0;
+    padding: 10px;
+    vertical-align: middle;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+.opinion{
+    margin: 2% 0; 
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    vertical-align: top;
+    padding-right: 10px;
+}
+ul{
+    list-style: none;
+}
+.choices3{
+    display: inline-block;
+    width: 25%;
+    text-align: left;
+    margin: 2% 0;
+    padding: 10px;
+    vertical-align: middle;
+}
+.choices2{
+    display:inline-block;
+    width: 30%;
+    text-align: left;
+    margin: 1% 0;
+    padding: 0px;
+}
+#comment{
+    padding-bottom: 5%;
+}
+#button{
+    border-radius: 5px;
+    margin-left: 40%;
+    color: white;
+    font-size: 120%;
+    padding: 1% 2%;
+    background-color:  skyblue;
+    border: 1px solid #a9d7d1;
+}
+#button:hover {
+    background-color:blue;
+
+}
+#reset{
+    border-radius: 5px;
+    margin-left: 45%;
+    margin-bottom:1%;
+    color: white;
+    font-size: 120%;
+    padding: 1% 2%;
+    background-color:  rgb(44, 154, 197);
+    border: 1px solid #a9d7d1;
+}
+#reset:hover {
+    background-color: green;
+}
+@media screen and (max-width: 220px){
+    @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+body{
+    font-family: 'Raleway';
+    background-color:  #a9d7d1;
+    
+    height: 100%;
+    width: 100vh;
+    
+}
+h1{
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+#container{
+    margin: 3% 2%;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid white;
+    border-radius: 5px;
+    width:75%;
+
+    height: 100%
+}
+#container p{
+    text-align: center;
+    padding-top: 2%;
+}
+label{
+   
+    margin: 2% 0; display: inline-block;
+    text-align: right;
+    width: 40%;
+    vertical-align: top;
+    padding: 10px;
+}
+input{
+    display: inline-block;
+    width: 35%;
+    text-align: left;
+    padding: 10px;
+    margin: 2% 0;
+    vertical-align: middle;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+.choices{
+    display: inline-block;
+    width: 25%;
+    text-align: left;
+    margin: 2% 0;
+    padding: 10px;
+    vertical-align: middle;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+.opinion{
+    margin: 2% 0; 
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    vertical-align: top;
+    padding-right: 10px;
+}
+ul{
+    list-style: none;
+}
+.choices3{
+    display: inline-block;
+    width: 25%;
+    text-align: left;
+    margin: 2% 0;
+    padding: 10px;
+    vertical-align: middle;
+}
+.choices2{
+    display:inline-block;
+    width: 30%;
+    text-align: left;
+    margin: 1% 0;
+    padding: 0px;
+}
+#comment{
+    padding-bottom: 5%;
+}
+#button{
+    border-radius: 5px;
+    margin-left: 40%;
+    color: white;
+    font-size: 120%;
+    padding: 1% 2%;
+    background-color:  skyblue;
+    border: 1px solid #a9d7d1;
+}
+#button:hover {
+    background-color:blue;
+
+}
+#reset{
+    border-radius: 5px;
+    margin-left: 45%;
+    margin-bottom:1%;
+    color: white;
+    font-size: 120%;
+    padding: 1% 2%;
+    background-color:  rgb(44, 154, 197);
+    border: 1px solid #a9d7d1;
+}
+#reset:hover {
+    background-color: green;
+}
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+         <title>project2</title>
+         <link href="project2.css" rel="stylesheet" type="text/css">
+     </head>
+     <body>     
+        <h1>Survey Form</h1>
+                <div id="container">
+                    <p>Let us know how we can improve freeCodeCamp</p>
+                    <form action="www.cristianoronaldo.com">
+                        <label >*Name:</label>
+                        <input type="text" placeholder="Enter ur name" required>
+                        <label >*Email:</label>
+                        <input type="text" placeholder="Enter ur Email" required>
+                        <label>*Age:</label>
+                        <input type="number" placeholder="Enter ur age" required min="14" max="60">
+                        <div id="select">
+                            <label>Which option best describes your current role?</label>
+                          <select class="choices">
+                              <option>Student</option>
+                              <option>Full time job</option>
+                              <option>Full time learner</option>
+                              <option>Other</option>
+                          </select>
+                          </div>
+                          <div class="opinion">* How likely is that you would recommend freeCodeCamp to a friend?</div>
+                          <ul class="choices3">
+                          <li ><input class="radio" type="radio" name="opinion" >Definetely</li>
+                          <li ><input class="radio" type="radio" name="opinion" >May Be</li>
+                          <li><input  class="radio" type="radio" name="opinion" >Not Sure</li>
+                          </ul>
+                          <label>What do you like most in FCC:</label>
+                          <select class="choices">
+                                <option>Challenges</option>
+                                <option>Project</option>
+                                <option>Community</option>
+                                <option>Open Source</option>
+                          </select>
+                          <label>Things that should be improved in the future
+                                (Check all that apply):</label>
+                                <ul class="choices2">
+                                    <li><input type="checkbox">Front-end Projects</li>
+                                    <li><input type="checkbox">Back-end projects</li>
+                                    <li><input type="checkbox">Data Visualization</li>
+                                    <li><input type="checkbox">Challanges</li>
+                                    <li><input type="checkbox">Open Source</li>
+                                    <li><input type="checkbox">Additional Courses</li>
+                                </ul>
+                                <label>Any Comments or Suggestions?</label>
+                                <input id="comment" type="text" placeholder="enter ur comment" required>
+                                <button id="reset"type="submit">Submit</button> 
+                    </form>
+                </div>
+         <h3>&copy Jayant Sharma</h3>
+     </body>
+ </html>

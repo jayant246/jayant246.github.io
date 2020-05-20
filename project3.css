@@ -1,0 +1,123 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    font-family: lato;
+    background-color: #eee;
+}
+.header{
+    background-color: #eee;
+    width: 100%;
+    position:fixed;
+    top: 0%;
+}
+.header img{
+    height: 12%;
+    width: 25%;
+    padding-top: 2%;
+    padding-left: 2%;
+    float: left;
+}
+.list{
+    display: inline-block;
+    font-family: lato;
+    padding-left: 30%;
+    padding-top: 2.5%;
+
+}
+a{
+    color: rgb(104, 102, 102);
+}
+a:link {
+    text-decoration: none;
+}
+.links{
+    padding: 0 30px;
+    width:10% 
+}
+.top h2 {
+    text-align: center;
+}
+.top{
+    margin:5%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+}
+.top input {
+    align-self: center;
+    margin: 2% 0;
+    width: 25%;
+    padding: 5px;
+}
+.top button{
+    align-self:center;
+    background-color: gold;
+    width: 15%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid gold;
+    font-weight: bolder;
+    font-size: 20px; 
+}
+.description{
+    display: inline-block;
+    width: 72%;
+    margin-left: 20%;
+    text-align: left;
+    padding-top: 5%;
+}
+.video{
+    margin: 5% 25%;
+}
+#columns{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 5%;
+    margin: 1% 5%;
+}
+.column1{
+ border: 1px solid;
+ text-align: center;
+ border-radius: 2px;
+}
+.column1 h3{
+    background-color: rgb(226, 224, 224);
+    text-align: center;
+    padding: 5%;
+    margin-bottom: 3%;
+}
+.column1 p{
+    margin: 2% 0;
+}
+.column1 button{
+    background-color: gold;
+    border-radius: 3px;
+    padding: 5px;
+    width: 35%;
+    margin-top: 10%;
+    margin-bottom:3%;
+    font-size: 20px;
+    border: 1px solid gold;
+}
+.last{
+    background-color: rgb(226, 224, 224);
+    width: 90%;
+    margin: 5% 5%;
+    display: inline-block;
+}
+.footer{
+    display: inline-block;
+    padding: 0 3%;
+    color: rgb(85, 83, 83)
+}
+.footer2{
+    margin-left:75%;
+    padding:2% 0;
+}
+.last h3{
+    text-align: center;
+}

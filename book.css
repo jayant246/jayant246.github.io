@@ -1,0 +1,145 @@
+body{
+    font-family: Tahoma;
+    color: #444;
+    letter-spacing: 1px;
+}
+h1, h2{
+    font-weight: normal;
+}
+.wrapper{
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border: 2px solid;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+    padding: 0 0 20px;
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+}
+.header{
+    display: grid; 
+    grid-template-columns: 1fr;
+    justify-items: center;
+    background: #eee;
+    padding: 20px;
+}
+.header > h1{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+.header > p {
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+}
+#search > input{
+    width: 300px;
+    max-width: 300px;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    color: #444;
+    font-size: 16px;
+    padding: 8px;
+}
+#book-list{
+    /* display: grid;
+    grid-template-columns: 1fr;
+    justify-items: flex-start; */
+    /* margin: 30px; */
+}
+#book-list > h2 {
+    /* border: 2px solid; */
+    /* display: flex;
+    justify-content: center;
+    border: 2px solid; */
+    /* margin: 30px 55px; */
+    padding: 0 10px;
+}
+#book-list > ul >li{
+    list-style-type: none;
+    margin: 30px;
+    padding: 10px;
+    font-size: 18px;
+    border-left: 5px solid #ddd;
+}
+.delete{
+    float: right;
+    border: 2px solid #9361bf;
+    background: #9361bf;
+    color: white;
+    border-radius: 3px;
+    padding: 2px;
+}
+.delete:hover{
+    background-color: seagreen;
+    border-color: seagreen;
+    cursor: pointer;
+}
+#book-list > ul >li:hover {
+    border-color: #9361bf;
+}
+#add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+}
+#add > label {
+    width: 80px;
+    /* margin-right: 5px; */
+    line-height: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#add > .add-book {
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 7px;
+    width: 300px;
+    margin: 20px;
+    margin-right: 0;
+    /* margin-bottom: 30px; */
+}
+.btn-add{
+    padding: 7px;
+    font-size: 18px;
+    width: 80px;
+    margin-left: 0;
+    /* margin-bottom: 10px; */
+    border: 2px solid #9361bf;
+    border-radius: 4px;
+    background: #9361bf;
+    color: white;
+}
+.btn-add:hover{
+    background: seagreen;
+    cursor: pointer;
+    border-color: seagreen;
+}
+
+#tabbed-content li{
+    display: inline-block;
+    padding: 10px 14px;
+    background: #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#tabbed-content .panel{
+    display: none;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+
+#tabbed-content .panel.active{
+    display: block;
+}

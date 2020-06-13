@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>books</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h1>Bookorama</h1>
+            <p>Book for dev</p>
+            <form action="" id="search">
+                <input type="text" placeholder="Search books...">
+            </form>
+        </div>
+        <div id="book-list">
+            <h2 class="heading">Books to read</h3>
+            <ul class="list">
+                <li><span>Name of the wind</span> <span class="delete">delete</span></li>
+                <li><span>The Wise Man's Fear </span><span class="delete">delete</span></li>
+                <li><span>Kafka on the Shore</span>  <span class="delete">delete</span></li>
+                <li><span>The Master and the Margerita </span> <span class="delete">delete</span></li>
+                <li><span>The Wise Man's Fear</span>  <span class="delete">delete</span></li>
+            </ul>
+        </div>
+        <form id="add">
+            <input type="checkbox" name="" id="hide">
+            <label for="hide">Hide all books</label>
+            <input type="text" class="add-book" placeholder="Add a book...">
+            <button class="btn-add">Add</button><br>
+        </form>
+        <!-- <div id="tabbed-content">
+            <ul class="tabs">
+              <li data-target="#about" class="active">About</li>
+              <li data-target="#contact">Contact</li>
+            </ul>
+            <div class="panel active" id="about">
+              <p>Content for about tab...</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id nunc porta urna ornare rhoncus. Ut convallis ante at.</p>
+            </div>
+            <div class="panel" id="contact">
+              <p>Content for contact tab...</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id nunc porta urna ornare rhoncus. Ut convallis ante at.</p>
+            </div>
+          </div> -->
+    </div>
+    <script src="book.js"></script>
+</body>
+</html>

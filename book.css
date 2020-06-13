@@ -60,7 +60,7 @@ h1, h2{
 }
 #book-list > ul >li{
     list-style-type: none;
-    margin: 30px;
+    margin: 20px;
     padding: 10px;
     font-size: 16px;
     border-left: 5px solid #ddd;

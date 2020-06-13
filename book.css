@@ -8,7 +8,7 @@ h1, h2{
 }
 .wrapper{
     width: 90%;
-    max-width: 750px;
+    max-width: 760px;
     margin: 20px auto;
     border: 2px solid;
     border-radius: 6px;
@@ -62,7 +62,7 @@ h1, h2{
     list-style-type: none;
     margin: 30px;
     padding: 10px;
-    font-size: 18px;
+    font-size: 16px;
     border-left: 5px solid #ddd;
 }
 .delete{
@@ -98,19 +98,19 @@ h1, h2{
     justify-content: space-around;
 }
 #add > .add-book {
-    font-size: 18px;
+    font-size: 16px;
     border: 2px solid #ccc;
     border-radius: 4px;
-    padding: 7px;
-    width: 300px;
+    padding: 5px;
+    width: 230px;
     margin: 20px;
     margin-right: 0;
     /* margin-bottom: 30px; */
 }
 .btn-add{
-    padding: 7px;
-    font-size: 18px;
-    width: 80px;
+    padding: 5px;
+    font-size: 16px;
+    width: 60px;
     margin-left: 0;
     /* margin-bottom: 10px; */
     border: 2px solid #9361bf;
